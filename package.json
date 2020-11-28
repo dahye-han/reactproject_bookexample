@@ -1,5 +1,5 @@
 {
-  "name": "react-sample-app",
+  "name": "reactP",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,16 +7,25 @@
     "start": "webpack-dev-server --mode development --content-base ./dist --hot --inline --colors --port 3000 --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahye-han/reactP.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dahye-han/reactP/issues"
+  },
+  "homepage": "https://github.com/dahye-han/reactP#readme",
   "dependencies": {
-    "axios": "^0.18.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "axios": "^0.18.1",
+    "react": "^17.0.1",
+    "react-dom": "^16.14.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "semantic-ui-react": "^0.78.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
     "tslint-config-typings": "^0.3.1"
   },
   "devDependencies": {
@@ -27,8 +36,8 @@
     "ts-loader": "^4.0.1",
     "tslint": "^5.9.1",
     "typescript": "^2.7.2",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.10",
-    "webpack-dev-server": "^3.1.0"
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }

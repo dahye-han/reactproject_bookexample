@@ -5,12 +5,12 @@ module.exports = [{
     cache: true,
     devtool: 'source-map',
     devServer: {
-        historyApiFallBack: true,
+        historyApiFallback: true,
     },
     context: path.resolve(__dirname, 'src'),
     entry: './Routes.tsx',
     output: {
-        filename: './dist/js/build.js'
+        filename: './dist/js/build/js'
     },
     module: {
         rules: [
